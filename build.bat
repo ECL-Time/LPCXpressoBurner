@@ -86,7 +86,7 @@ cd %WORKING_DIR%
 :Qt5MSVC
 rem Qt5 MSVC2010
 set QTDIR=
-set PATH=C:\Qt\Qt5.3.1_MSVC\5.3\msvc2010_opengl\bin;%SystemRoot%\System32;%SystemRoot%
+set PATH=C:\Qt\Qt5.3.1_MSVC2010\5.3\msvc2010_opengl\bin;%SystemRoot%\System32;%SystemRoot%
 set QMAKESPEC=
 call "C:\Program Files\Microsoft Visual Studio 10.0\VC\vcvarsall.bat" x86
 rem Build
